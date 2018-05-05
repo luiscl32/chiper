@@ -19,6 +19,15 @@ export const forgotStyles = StyleSheet.create({
   titleText: {
     color: "#5EABFC",
     fontSize: 16,
+    textAlign: 'center'
+  },
+  icon:{
+    color: "#fff",
+    fontSize: 16,
+  },
+  title:{
+    color: "#fff",
+    fontSize: 16,
   },
   forgotText:{
     marginTop: 10,
@@ -60,11 +69,10 @@ export const forgotStyles = StyleSheet.create({
     height: 40,
     backgroundColor: "#fff"
   },
-  /*----------- footer -----------*/
-  footer:{
-    flex: 1,
+  /*----------- header -----------*/
+  header:{
     width: "100%",
-    marginTop: 10,
+    height: 50,
     alignItems: 'center',
     backgroundColor: "#0769e4",
   }

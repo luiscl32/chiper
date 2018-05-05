@@ -10,10 +10,15 @@ export const registerStyles = StyleSheet.create({
     backgroundColor: "#0671f5"
   },
   image:{
-    marginTop: "25%",
+    marginTop: "15%",
     marginBottom: "20%",
     width: 179,
     height: 60,
+  },
+  keyboardContainer:{
+    flex: 1,
+    width: "100%",
+    alignItems: 'center'
   },
   /*----------- textos -----------*/
   titleText: {
@@ -22,11 +27,11 @@ export const registerStyles = StyleSheet.create({
     textAlign: 'center'
   },
   icon:{
-    color: "#5EABFC",
+    color: "#fff",
     fontSize: 16,
   },
   title:{
-    color: "#5EABFC",
+    color: "#fff",
     fontSize: 16,
   },
   forgotText:{
@@ -71,9 +76,8 @@ export const registerStyles = StyleSheet.create({
   },
   /*----------- header -----------*/
   header:{
-    flex: 1,
     width: "100%",
-    marginTop: 10,
+    height: 50,
     alignItems: 'center',
     backgroundColor: "#0769e4",
   }

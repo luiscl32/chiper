@@ -4815,7 +4815,7 @@ mobx@^3.3.1:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.6.2.tgz#fb9f5ff5090539a1ad54e75dc4c098b602693320"
 
-moment@2.x.x, moment@^2.10.6:
+moment@2.x.x, moment@^2.10.6, moment@^2.22.1:
   version "2.22.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
 
@@ -5652,7 +5652,7 @@ react-native-drawer@2.5.0:
     prop-types "^15.5.8"
     tween-functions "^1.0.1"
 
-react-native-easy-grid@0.1.17:
+react-native-easy-grid@0.1.17, react-native-easy-grid@^0.1.17:
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/react-native-easy-grid/-/react-native-easy-grid-0.1.17.tgz#fad8cb371d465828c1c71daa4d8b513d33253452"
   dependencies:

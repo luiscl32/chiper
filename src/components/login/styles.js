@@ -31,6 +31,7 @@ export const loginStyles = StyleSheet.create({
   },
   footerText:{
     marginTop: "5%",
+    marginBottom: "5%",
     color: "#89C4EC",
     fontWeight: 'bold',
     fontSize: 16
@@ -39,7 +40,7 @@ export const loginStyles = StyleSheet.create({
     marginTop: 10,
     color: "#D2E391",
     fontWeight: 'bold',
-    fontSize: 16
+    fontSize: 14
   },
   /*----------- form -----------*/
   form:{

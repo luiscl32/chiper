@@ -23,7 +23,7 @@ import {TouchableOpacity,Text} from 'react-native';
 ===============================================>>>>>*/
 
 export const Headers = ({IconName,iconStyle,onPress, Title, titleStyle, headerStyle}) => (
-  <Header headerStyle={headerStyle}>
+  <Header style={headerStyle}>
     <Left>
       <TouchableOpacity onPress={onPress.bind(this)}>
         <Icon
@@ -35,9 +35,6 @@ export const Headers = ({IconName,iconStyle,onPress, Title, titleStyle, headerSt
     <Body>
       <Text style={titleStyle}>{Title}</Text>
     </Body>
-    <Right>
-
-    </Right>
   </Header>
 );
 

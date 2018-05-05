@@ -33,6 +33,7 @@
               key="forgotPassword"
               component={Forgot}
               title="forgot"
+              hideNavBar={true}
               />
             {/* register */}
             <Scene
@@ -45,6 +46,7 @@
             <Scene
               key="products"
               component={Products}
+              hideNavBar={true}
               title="test"
               />
           </Scene>
